@@ -18,7 +18,7 @@ public class Demo {
 		Actions a = new Actions(driver);
 		WebElement element = driver.findElement(By.xpath("(//a[.='Home & Kitchen']/ancestor::li[@class=\"header-nav-l1-item\"])"));
 		a.moveToElement(element).perform();
-System.out.println("");
+
 		
 	}
 //	public static void Swiggy()
